@@ -1,0 +1,89 @@
+# 環境変数
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# 認証情報
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+secrets/
+.secrets
+
+# IDE設定
+.idea/
+.vscode/settings.json
+.vscode/.react
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# 依存関係
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ビルド成果物
+dist/
+build/
+*.egg-info/
+.next/
+out/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# ログ
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# テストカバレッジ
+coverage/
+*.coverage
+.nyc_output/
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# データベース
+*.sqlite
+*.sqlite3
+*.db
+
+# Claude Code個人設定
+.claude/settings.local.json
+.claude/hooks/local/
+.claude/commands/local/
+
+# Cursor個人設定
+.cursor/settings.local.json
+
+# その他
+*.bak
+*.tmp
+.temp/
